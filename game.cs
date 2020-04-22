@@ -35,7 +35,7 @@ namespace guessingGame
                 int[] lives = new int[7];
             int count = lives.Length;
 
-              Console.WriteLine("You got 6 lives left.  Now input a random number from 1 to 10" + count);
+              Console.WriteLine("You got 6 lives left.  Now input a random number from 1 to 10");
 
                      do{
            
@@ -53,8 +53,8 @@ namespace guessingGame
                      }
 
                     else{
-                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR + "Try again");
-                       // guess++;
+                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR + ". "+ " Try again!!");
+                       guess++;
                     } 
          }
                     
@@ -91,8 +91,8 @@ namespace guessingGame
                      }
 
                     else{
-                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR + " "+ "Try again");
-                        //guess++;
+                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR + ". "+ " Try again!!");
+                        guessM++;
                     } 
          }
                     
@@ -128,8 +128,8 @@ namespace guessingGame
                      }
 
                     else{
-                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR);
-                        //guess++;
+                        Console.WriteLine("That was wrong. :( . You chose: " + randomNum  + " , "+ "Computer chose: "   + newR + ". "+ " Try again!!");
+                        guessH++;
                     } 
          }
                     
