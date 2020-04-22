@@ -60,7 +60,11 @@ namespace guessingGame
                     
                    while(guess < count);
 
-                        
+                    
+                   if (guess == count){
+                    Console.WriteLine("Game over!!");
+                   }
+    
                     
                     break;
 
@@ -99,6 +103,12 @@ namespace guessingGame
                    while(guessM < countM);
 
 
+                   if (guessM == countM){
+                    Console.WriteLine("Game over!!");
+                   }
+    
+
+
                     break;
               
 
@@ -134,6 +144,12 @@ namespace guessingGame
          }
                     
                    while(guessH < countH);
+
+                   if (guessH == countH){
+                    Console.WriteLine("Game over!!");
+                   }
+    
+
                    break;
 
 
